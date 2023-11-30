@@ -5,6 +5,8 @@
  */
 package proyectofinalfuzzy;
 
+import proyectofinalfuzzy.Vista.FrmParametrosGenerales;
+
 /**
  *
  * @author Tatiana Astudillo
@@ -16,6 +18,8 @@ public class ProyectoFinalFuzzy {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        FrmParametrosGenerales fg = new FrmParametrosGenerales();
+        fg.show();
     }
     
 }
